@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Thực hành chuyên sâu</title>
+	  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="http://rilwis.googlecode.com/svn/trunk/weather.min.js"></script>  
+  <style type="text/css">
+  	span{
+  		font-size: 30px;
+  	}
+  	.nav-item:hover{
+  		background-color: #C6E2FF;
+  	}
+  	a{
+  		color: #cfcfcf;
+  	}
+    .content{
+      width: 1000px;
+      height: 50px;
+      background-color: #D3D3D3;
+      padding-left: 50px;
+
+    }
+  </style>
+</head>
+<body>
+	<div class="container" align="center" style="background-color: #f1f1f1;width: 1000px; height: 800px; ">
+    <div class="row">
+      <div class="col-md-12">
+        <a href="#"><img src="https://hoadondientu247.com/wp-content/uploads/2018/10/banner-VNNS.jpg" width="1000px" height="200px"></a>
+      </div>
+    </div>
+		<div class="row" style="background-color:#528B8B;">
+		<ul class="nav nav-tabs">
+    	<li class="nav-item">
+      			<a class="nav-link" data-toggle="tab" href="#home">Giới Thiệu </a>
+   		 </li>
+    	<li class="nav-item">
+     		 <a class="nav-link active" data-toggle="tab" href="#menu1">Bật tắt Led </a>
+    	</li>
+ 	 </ul>
+ 	</div>
+
+  <!-- Tab panes -->
+  <div class="tab-content">
+
+    	<div id="home" class="container tab-pane fade"><br>
+    		<div class="row"><marquee width="50%"><span style="color: #440000;">Chào mừng bạn đến với môn thực hành chuyên sâu </span></marquee></div>
+    		<div class="row" style="padding-top: 50px;">
+      			<div class="col-md-2" > <!--lay 3 cot dau tien-->
+        <img src="https://www.easons.com/globalassets/book-covers/manunited_annual_2018.jpg" width = "300" height ="300" style="border-radius: 30px;" >
+     </div>
+    <div class="col-md-10" style="padding-left: 150px;">
+          <font color = "#003333">
+          	<h1 style="font-weight:bold;">THỰC HÀNH CHUYÊN SÂU</h1>
+            <span>Họ và tên: Vũ Văn Chung</span><br/>
+            <span>Ngày sinh : 30/3/1995</span><br/>
+            <span>Mã sinh viên: B15DCDT019</span><br/>
+            <span>Email: vuvanchungptit@gmail.com</span><br/>
+            <span>Chuyên ngành: Điện tử máy tính </span>
+
+          </font>
+    		</div>
+		</div>
+	</div>
+    <div id="menu1" class="container tab-pane active" style="padding-top: 80px; padding-left: 50px;"><br>
+    	<h1 style="text-align: center; color: #004400;">LED SỐ 1</h1>
+    	<br/>
+     	<div class="row">
+        <div class="col-md-4">
+        <a href="/led1on"><button type="button" class="btn btn-danger" onclick="document.getElementById('myimage').src='http://bestanimations.com/HomeOffice/Lights/Bulbs/animated-light-bulb-gif-29.gif'">ON</button></a>
+        </div>
+        <div class="col-md-4">
+        <img id="myimage" src="https://www.freeiconspng.com/uploads/light-bulb-png-bulb-png1243-0.png" style="width:100px">
+      </div>
+      <div class="col-md-4">
+        <a href="/led1off"><button type="button" class="btn btn-dark" onclick="document.getElementById('myimage').src='https://www.freeiconspng.com/uploads/light-bulb-png-bulb-png1243-0.png'">OFF</button></a>
+      </div>
+      </div>
+
+     	<h1 style="text-align: center; color: #004400; padding-top: 120px;">ĐIỀU CHỈNH ĐỘ SÁNG CỦA LED </h1>
+     	<div class="row">
+     		<div class="col-md-4">
+     		<a href="led1+"><button type="button" class="btn btn-danger" onclick="document.getElementById('myimage').src='http://bestanimations.com/HomeOffice/Lights/Bulbs/animated-light-bulb-gif-29.gif'">Tăng</button></a>
+     		</div>
+     		<div class="col-md-4">
+				<img id="myimage" src="https://www.freeiconspng.com/uploads/light-bulb-png-bulb-png1243-0.png" style="width:100px">
+			</div>
+			<div class="col-md-4">
+				<a href="led1-"><button type="button" class="btn btn-dark" onclick="document.getElementById('myimage').src='https://www.freeiconspng.com/uploads/light-bulb-png-bulb-png1243-0.png'">Giảm</button></a>
+			</div>
+     	</div>
+    </div>
+</div>  
+<!-- Footer -->
+<footer class="page-footer font-small blue" style="background-color: #D3D3D3;">
+
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-3">© Bản quyền thuộc:
+    <a href="#" style="color: #808080;"> Vũ Văn Chung </a>
+  </div>
+  <!-- Copyright -->
+
+</footer>
+<!-- Footer -->
+	</div>
+
+</body>
+</html>
